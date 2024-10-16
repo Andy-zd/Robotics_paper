@@ -1,13 +1,17 @@
 Generative AI for Robotics
 
 
-1. Generative Simulation:
+1. Generative Simulation & Sim 2 Real:
 
 Manipulate-Anything: Automating Real-World Robots using Vision-Language Models arxiv
 RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation ICML 2024
+GenH2R: Learning Generalizable Human-to-Robot Handover via Scalable Simulation, Demonstration, and Imitation CVPR 2024
+GRUtopia: Dream General Robots in a City at Scale (Simulator)
+LEGENT: Open Platform for Embodied Agents (Simulator)
+GenSim2: Scaling Robot Data Generation with Multi-modal and Reasoning LLMs
+
 
 2. Diffusion for  planning
-
 
 Planning with Diffusion for Flexible Behavior Synthesis: ICML 2022
 
@@ -23,10 +27,31 @@ READ: Retrieval-Enhanced Asymmetric Diffusion for Motion Planning CVPR 2024
 
 Combining Constrained Diffusion Models and Numerical Solvers for Efficient and Robust Non-Convex Trajectory Optimization
 
-OASIS: Conditional Distribution Shaping for Offline Safe Reinforcement Learning NIPS2024
+<!-- OASIS: Conditional Distribution Shaping for Offline Safe Reinforcement Learning NIPS2024 -->
 
 Denoising Heat-inspired Diffusion with Insulators for Collision Free Motion Planning NeurIPS 2023 Workshop
 
 CoBL-Diffusion: Diffusion-Based Conditional Robot Planning in Dynamic Environments Using Control Barrier and Lyapunov Functions ICRA 2024 workshop
 
 <!-- Model-Based Diffusion for Trajectory Optimization -->
+
+Sparse Diffusion Policy: A Sparse, Reusable, and Flexible Policy for Robot Learning
+TLDR: By adopting Mixture of Experts (MoE) within a transformer-based diffusion policy, SDP selectively activates experts and skills, enabling efficient and task-specific learning without retraining the entire model.
+
+
+3. Safety 
+(Target at Safe RL)
+OASIS: Conditional Distribution Shaping for Offline Safe Reinforcement Learning NIPS 2024
+Datasets and Benchmarks for Offline Safe Reinforcement Learning NIPS 2023 dataset Benchmarks
+MULTIMODAL SITUATIONAL SAFETY Submission for ICLR 2025
+Train Hard, Fight Easy: Robust Meta Reinforcement Learning NeurIPS 2023
+
+
+4. Real 2 Real
+GR-2: A Generative Video-Language-Action Model with Web-Scale Knowledge for Robot Manipulation
+Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation
+
+5. Representation Learning 
+SPA: 3D SPatial-Awareness Enables Effective Embodied Representation Submission for ICLR 2025
+
+
